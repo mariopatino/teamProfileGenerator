@@ -7,16 +7,16 @@ describe('Employee', () => {
             const employee= new Employee();
             expect(typeof employee).toBe('object');
       }),
-      test('when called, getRole() should return a string "Employee"', () => {
+      test('should return a string "Employee" when called getRole()', () => {
             const employee = new Employee("Mario", 301511, "mario@mail.com");
             expect(employee.getRole()).toBe('Employee');
       })
-      test('should create employee instance with the name property supplied at instantiation', () => {
+      test('creating employee instance with the name property provided at initialization', () => {
             const employeeName = "name test";
             const employee = new Employee(employeeName);
             expect(employee.name).toBe('name test');
       }),
-      test('when called, getName() returns the name of the employee', () => {
+      test('should returns the name of the employeewhen when call getName()', () => {
             const employee = new Employee('name test');
             expect(employee.getName()).toBe('name test');
       }),
@@ -25,7 +25,7 @@ describe('Employee', () => {
             let employee = new Employee("Name", employeeId);
             expect(employee.id).toBe(employeeId);
       }),
-      test('when called, getId() returns the id of the employee', () => {
+      test('should returns the id of the employee when call getId()', () => {
             const employeeId = "897699";
             let employee = new Employee("Name", employeeId);
             expect(employee.getId()).toBe(employeeId);
@@ -35,7 +35,7 @@ describe('Employee', () => {
             let employee = new Employee("Dulce", 896524, employeeEmail);
             expect(employee.email).toBe(employeeEmail);
       }),
-      test('when called, getEmail() returns the email of the employee', () => {
+      test('should returns the email of the employee when call getEmail()', () => {
             const employeeEmail = "dulce@mail.com";
             let employee = new Employee("Dulce", 123456, employeeEmail);
             expect(employee.getEmail()).toBe(employeeEmail);
