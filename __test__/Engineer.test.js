@@ -8,11 +8,11 @@ const Engineer = require('../lib/Engineer');
       }),
       test('should create an instance of the engineer class with the github property supplied at instantiation', ()=> {
             const github = 'testGithub';
-            let engineer = new Engineer("test", 1234, "Engineer@test.com", github);
+            let engineer = new Engineer("Carlos", 123456, "carlos@email.com", github);
             expect(engineer.github).toBe(github);
       }),
       test('when called, getGithub should return the github property supplied at instantiation', () => {
             const github = 'testGithub';
-            const engineer = new Engineer("test", 1234, "Engineer@test.com", github);
+            const engineer = new Engineer("Carlos", 567890, "carlos@email.com", github);
             expect(engineer.getGitHub()).toBe(github);
       })
