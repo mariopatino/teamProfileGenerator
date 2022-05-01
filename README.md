@@ -5,6 +5,7 @@ This is a Node.js command-line application that takes in information about emplo
 
 ## Usage
 You can wathc the application working in the following video [Walkthrough Video]
+https://drive.google.com/file/d/1FH5sL6kcdPR3gq18FECCVxpvqSD8sH9W/view
 
 You can also render the HTML created after you enter the requested data at  [index.html](./dist/index.html)
 
