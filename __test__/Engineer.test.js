@@ -11,7 +11,7 @@ const Engineer = require('../lib/Engineer');
             let engineer = new Engineer("Carlos", 123456, "carlos@email.com", github);
             expect(engineer.github).toBe(github);
       }),
-      test('when called, getGithub should return the github property supplied at instantiation', () => {
+      test('should return the github property supplied at instantiation when call getGithub with it', () => {
             const github = 'testGithub';
             const engineer = new Engineer("Carlos", 567890, "carlos@email.com", github);
             expect(engineer.getGitHub()).toBe(github);
