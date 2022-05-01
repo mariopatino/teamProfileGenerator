@@ -1,0 +1,20 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "node.js App for create a HTML for a team",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mario Patino",
+  "license": "ISC",
+  "dependencies": {
+      "email-validator": "^2.0.4",
+      "inquirer": "^8.2.0",
+      "jest": "^27.4.7",
+      "validation-master": "^1.0.32"
+  }
+}
