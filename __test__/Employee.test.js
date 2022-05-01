@@ -8,7 +8,7 @@ describe('Employee', () => {
             expect(typeof employee).toBe('object');
       }),
       test('when called, getRole() should return a string "Employee"', () => {
-            const employee = new Employee("Test", 1234, "test@test.com");
+            const employee = new Employee("Mario", 301511, "mario@mail.com");
             expect(employee.getRole()).toBe('Employee');
       })
       test('should create employee instance with the name property supplied at instantiation', () => {
@@ -21,23 +21,23 @@ describe('Employee', () => {
             expect(employee.getName()).toBe('name test');
       }),
       test('should create employee instance with the id property supplied at instantiation', () => {
-            const employeeId = "1234";
+            const employeeId = "897634";
             let employee = new Employee("Name", employeeId);
             expect(employee.id).toBe(employeeId);
       }),
       test('when called, getId() returns the id of the employee', () => {
-            const employeeId = "1234";
+            const employeeId = "897699";
             let employee = new Employee("Name", employeeId);
             expect(employee.getId()).toBe(employeeId);
       }),
       test('should create employee instance with the email property supplied at instantiation', () => {
-            const employeeEmail = "employee@email.com.com";
-            let employee = new Employee("Name", 1234, employeeEmail);
+            const employeeEmail = "dulce@mail.com.com";
+            let employee = new Employee("Dulce", 896524, employeeEmail);
             expect(employee.email).toBe(employeeEmail);
       }),
       test('when called, getEmail() returns the email of the employee', () => {
-            const employeeEmail = "employee@email.com";
-            let employee = new Employee("Name", 1234, employeeEmail);
+            const employeeEmail = "dulce@mail.com";
+            let employee = new Employee("Dulce", 123456, employeeEmail);
             expect(employee.getEmail()).toBe(employeeEmail);
       })
       })
